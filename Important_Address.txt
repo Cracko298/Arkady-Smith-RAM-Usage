@@ -1,11 +1,11 @@
 ============= X & Y Coordinates For Arkady Smith =============
 
 - Anything value higher than 199999999999 with teleport you into the ground
-1DD16914A18 - Set too an offset of 100000000 (Same with all 1DD1 & 1DD7 addresses).
+1DD16914A18 - Set too an offset of 0x100000000 (Same with all 1DD1 & 1DD7 addresses).
 1DD10E18738
 1DD10E18188
 1DD0755F278
-6EE996CDD8 - Set to and offset to respawn when reached like an offset of 200000000 (Same with the other 6EE996C address).
+6EE996CDD8 - Set to and offset to respawn when reached like an offset of 0x200000000 *Thats an example* (Same with the other 6EE996C address).
 6EE996CC48
 1DD1C252388
 1DD7F812F44
