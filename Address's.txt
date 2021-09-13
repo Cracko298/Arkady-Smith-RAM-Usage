@@ -1,0 +1,33 @@
+============= X & Y Coordinates For Arkady Smith =============
+
+- Anything value higher than 199999999999 with teleport you into the ground
+1DD16914A18 - Set too an offset of 100000000 (Same with all 1DD1 & 1DD7 addresses).
+1DD10E18738
+1DD10E18188
+1DD0755F278
+6EE996CDD8 - Set to and offset to respawn when reached like an offset of 200000000 (Same with the other 6EE996C address).
+6EE996CC48
+1DD1C252388
+1DD7F812F44
+1DD7F812FF8
+
+============= Crash UE4's D3D11Veiwport.cpp From Arkady Smith =============
+
+- Crashes D3D11Veiwport.cpp which is used for compiling blueprints.
+- The value is stored as an 8-Byte number. But is a float number as well.
+
+7FF6D7D0657D - Set too an offset of 0x0 & hold down the "Space-Bar" You'll crash UE4 almost instantly
+
+
+
+Source of error:
+*DriveLetter*:/Dev/UE*VersionNumber*/UnrealEngine/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Veiwport.cpp
+
+typedef struct D3D11_VIEWPORT {
+  FLOAT TopLeftX;
+  FLOAT TopLeftY;
+  FLOAT Width;
+  FLOAT Height;
+  FLOAT MinDepth;
+  FLOAT MaxDepth;
+} D3D11_VIEWPORT;
