@@ -1,6 +1,6 @@
 ============= X & Y Coordinates For Arkady Smith =============
 
-- Anything value higher than 199999999999 with teleport you into the ground
+- Anything value higher than 0x199999999999 with teleport you into the ground
 1DD16914A18 - Set too an offset of 0x100000000 (Same with all 1DD1 & 1DD7 addresses).
 1DD10E18738
 1DD10E18188
