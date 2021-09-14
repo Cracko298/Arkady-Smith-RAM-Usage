@@ -31,3 +31,14 @@ typedef struct D3D11_VIEWPORT {
   FLOAT MinDepth;
   FLOAT MaxDepth;
 } D3D11_VIEWPORT;
+
+
+============= Disabling Collision Detection =============
+
+- Address pointer is located at 000000DE64F6CDE0
+- To use set all address's and the pointer to 0x0 which should disable collision with walls, and other objects.
+000000DE64F6CCD0
+000000DE64F6CDB8
+000000DE64F6CDE0 - Pointer of function calls for Address 0x000000AB64CDE0C0 (Don't know why yet as it is an unrelated float value).
+
+- {"description":null,"guid":"d46cc7c0-8191-4d32-bc9f-f0c1f7bdd2e6","name":"New Address","dataType":{"TypeString":"System.Int32"},"isValueHex":false,"moduleName":"","moduleOffset":955176635600,"pointerOffsets":null}
