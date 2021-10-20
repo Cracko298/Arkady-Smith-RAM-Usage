@@ -42,3 +42,24 @@ typedef struct D3D11_VIEWPORT {
 000000DE64F6CDE0 - Pointer of function calls for Address 0x000000AB64CDE0C0 (Don't know why yet as it is an unrelated float value).
 
 - {"description":null,"guid":"d46cc7c0-8191-4d32-bc9f-f0c1f7bdd2e6","name":"New Address","dataType":{"TypeString":"System.Int32"},"isValueHex":false,"moduleName":"","moduleOffset":955176635600,"pointerOffsets":null}
+
+============= Steam Public AES Return Key =============
+
+6595b64144ccf1df
+
+============= Windows Stored AES Keys =============
+
+      <!-- Windows 10 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+
+      <!-- Windows 8.1 -->
+      <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
+
+      <!-- Windows Vista -->
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/>
+
+      <!-- Windows 7 -->
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+
+      <!-- Windows 8 -->
+      <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/> 
